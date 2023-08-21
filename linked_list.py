@@ -125,17 +125,3 @@ class LinkedList:
             
     
         
-            
-
-
-
-
-
-
-my_linked_list=LinkedList(11)
-my_linked_list.append(6)
-my_linked_list.append(0)
-my_linked_list.append(9)
-my_linked_list.print_list()
-my_linked_list.remove(2)
-my_linked_list.print_list()
