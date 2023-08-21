@@ -31,9 +31,3 @@ class Stack():
         self.top=None
         self.top=temp
         self.height-=1
-n=Stack(2)
-n.push(1)
-n.push(7)
-n.push(4)
-n.pop()
-n.print_stack()
