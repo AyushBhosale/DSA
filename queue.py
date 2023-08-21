@@ -33,11 +33,3 @@ class queue():
             self.first.next=None
             self.first=None
             self.first=temp
-
-q=queue(7)
-q.enqueue(2)
-q.enqueue(1)
-q.enqueue(5)
-q.enqueue(3)
-q.dequeue()
-q.print_queue()
